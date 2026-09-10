@@ -1,0 +1,3 @@
+CAR001;Formula Uno;Ferrari;Monoplaza;350
+CAR002;GT3;Porsche;Gran Turismo;310
+CAR003;Prototipo LMP1;Toyota;Resistencia;340

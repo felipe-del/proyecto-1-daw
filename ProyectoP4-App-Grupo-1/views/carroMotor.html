@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros y motores PostgreSQL</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+<aside class="menu-lateral">
+    <h2>Proyecto 1</h2>
+    <a href="/menu">Inicio</a><a href="/carros/pagina">Carros TXT</a><a href="/motores/pagina">Motores TXT</a>
+    <a href="/carro-motor/pagina">Carros y Motores PostgreSQL</a><a href="/configuracion/pagina">Configuraciones y Especificaciones PostgreSQL</a>
+    <a href="/mongo/carros/pagina">Carros MongoDB</a><a href="/mongo/motores/pagina">Motores MongoDB</a><a href="/logout">Cerrar sesión</a>
+</aside>
+<main class="contenido-interno">
+<div class="contenedor">
+    <h1>Carros y motores PostgreSQL</h1>
+
+    <section class="formulario">
+        <h2>Motor de carrera</h2>
+        <input type="hidden" id="motorId">
+        <label for="motorNombre">Nombre</label><input id="motorNombre" type="text">
+        <label for="motorFabricante">Fabricante</label><input id="motorFabricante" type="text">
+        <label for="motorTipo">Tipo</label><input id="motorTipo" type="text">
+        <label for="motorCilindrada">Cilindrada cc</label><input id="motorCilindrada" type="number">
+        <label for="motorPotencia">Potencia hp</label><input id="motorPotencia" type="number">
+        <label for="motorTorque">Torque nm</label><input id="motorTorque" type="number">
+        <label for="motorCombustible">Combustible</label><input id="motorCombustible" type="text">
+        <label for="motorImagen">Imagen</label><input id="motorImagen" type="file" accept="image/jpeg">
+        <img id="motorImagenVista" width="120" alt="Imagen del motor">
+        <button id="btnMotorGuardar">Guardar motor</button>
+        <button id="btnMotorLimpiar">Limpiar motor</button>
+    </section>
+
+    <section>
+        <h2>Motores registrados</h2>
+        <table><thead><tr><th>ID</th><th>Nombre</th><th>Fabricante</th><th>Tipo</th><th>Potencia</th><th>Imagen</th><th>Acciones</th></tr></thead><tbody id="tablaMotoresPostgres"></tbody></table>
+    </section>
+
+    <section class="formulario">
+        <h2>Carro de carrera</h2>
+        <input type="hidden" id="carroId">
+        <label for="carroNombre">Nombre</label><input id="carroNombre" type="text">
+        <label for="carroMarca">Marca</label><input id="carroMarca" type="text">
+        <label for="carroModelo">Modelo</label><input id="carroModelo" type="text">
+        <label for="carroCategoria">Categoría</label><input id="carroCategoria" type="text">
+        <label for="carroPeso">Peso kg</label><input id="carroPeso" type="number">
+        <label for="carroVelocidad">Velocidad máxima kmh</label><input id="carroVelocidad" type="number">
+        <label for="carroAnio">Año fabricación</label><input id="carroAnio" type="number">
+        <label for="carroMotorId">Motor ID</label><input id="carroMotorId" type="number">
+        <label for="carroImagen">Imagen</label><input id="carroImagen" type="file" accept="image/jpeg">
+        <img id="carroImagenVista" width="120" alt="Imagen del carro">
+        <button id="btnCarroGuardar">Guardar carro</button>
+        <button id="btnCarroLimpiar">Limpiar carro</button>
+    </section>
+
+    <section>
+        <h2>Carros registrados</h2>
+        <table><thead><tr><th>ID</th><th>Nombre</th><th>Marca</th><th>Modelo</th><th>Motor</th><th>Imagen</th><th>Acciones</th></tr></thead><tbody id="tablaCarrosPostgres"></tbody></table>
+    </section>
+
+    <section>
+        <h2>Carga Eager</h2>
+        <button id="btnEagerCarros">Consultar carros y motores</button>
+        <table><thead><tr><th>Carro</th><th>Marca</th><th>Motor</th><th>Fabricante</th><th>Potencia</th></tr></thead><tbody id="tablaEagerCarros"></tbody></table>
+    </section>
+
+    <div id="mensajePostgres"></div>
+</div>
+
+</main>
+<script src="/js/carroMotor.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motores MongoDB</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+<aside class="menu-lateral">
+    <h2>Proyecto 1</h2>
+    <a href="/menu">Inicio</a><a href="/carros/pagina">Carros TXT</a><a href="/motores/pagina">Motores TXT</a>
+    <a href="/carro-motor/pagina">Carros y Motores PostgreSQL</a><a href="/configuracion/pagina">Configuraciones y Especificaciones PostgreSQL</a>
+    <a href="/mongo/carros/pagina">Carros MongoDB</a><a href="/mongo/motores/pagina">Motores MongoDB</a><a href="/logout">Cerrar sesión</a>
+</aside>
+<main class="contenido-interno">
+<div class="contenedor">
+    <h1>Tipos de motores MongoDB</h1>
+
+    <label for="motorMongoId">ObjectId</label><input id="motorMongoId" type="text">
+    <label for="codigoMotor">Código motor</label><input id="codigoMotor" type="text">
+    <label for="nombreMotor">Nombre motor</label><input id="nombreMotor" type="text">
+    <label for="fabricanteMotor">Fabricante motor</label><input id="fabricanteMotor" type="text">
+    <label for="familiaMotor">Familia motor</label><input id="familiaMotor" type="text">
+    <label for="arquitecturaMotor">Arquitectura</label><input id="arquitecturaMotor" type="text">
+    <label for="configuracionCilindros">Configuración cilindros</label><input id="configuracionCilindros" type="text">
+    <label for="cantidadCilindros">Cantidad cilindros</label><input id="cantidadCilindros" type="number">
+    <label for="cilindradaCc">Cilindrada cc</label><input id="cilindradaCc" type="number">
+    <label for="diametroMm">Diámetro mm</label><input id="diametroMm" type="number">
+    <label for="carreraMm">Carrera mm</label><input id="carreraMm" type="number">
+    <label for="relacionCompresion">Relación compresión</label><input id="relacionCompresion" type="number" step="0.01">
+    <label for="tipoAspiracion">Tipo aspiración</label><input id="tipoAspiracion" type="text">
+    <label for="potenciaHp">Potencia hp</label><input id="potenciaHp" type="number">
+    <label for="torqueNm">Torque nm</label><input id="torqueNm" type="number">
+    <label for="rpmPotenciaMaxima">RPM potencia máxima</label><input id="rpmPotenciaMaxima" type="number">
+    <label for="rpmTorqueMaximo">RPM torque máximo</label><input id="rpmTorqueMaximo" type="number">
+    <label for="rpmLimite">RPM límite</label><input id="rpmLimite" type="number">
+    <label for="tipoCombustible">Tipo combustible</label><input id="tipoCombustible" type="text">
+    <label for="sistemaInyeccion">Sistema inyección</label><input id="sistemaInyeccion" type="text">
+    <label for="sistemaRefrigeracion">Sistema refrigeración</label><input id="sistemaRefrigeracion" type="text">
+    <label for="sistemaLubricacion">Sistema lubricación</label><input id="sistemaLubricacion" type="text">
+    <label for="materialBloque">Material bloque</label><input id="materialBloque" type="text">
+    <label for="materialCulata">Material culata</label><input id="materialCulata" type="text">
+    <label for="vidaUtilCompetenciaKm">Vida útil competencia km</label><input id="vidaUtilCompetenciaKm" type="number">
+    <label for="imagenMotor">Imagen</label><input id="imagenMotor" type="file" accept="image/jpeg">
+    <img id="imagenMotorVista" width="120" alt="Imagen del motor">
+
+    <button id="btnMotorMongoGuardar">Guardar</button>
+    <button id="btnMotorMongoModificar">Modificar</button>
+    <button id="btnMotorMongoEliminar">Eliminar</button>
+    <button id="btnMotorMongoConsultar">Consultar</button>
+    <button id="btnMotorMongoLimpiar">Limpiar</button>
+    <button id="btnMotorMongoListar">Mostrar todos</button>
+
+    <div id="mensajeMotorMongo"></div>
+
+    <h2>Motores registrados</h2>
+    <table><thead><tr><th>ObjectId</th><th>Código</th><th>Nombre</th><th>Fabricante</th><th>Potencia</th><th>Imagen</th><th>Acciones</th></tr></thead><tbody id="tablaMotoresMongo"></tbody></table>
+
+    <h2>Carros asociados cargados bajo demanda</h2>
+    <div id="carrosAsociadosMotor"></div>
+
+    <a class="enlace" href="/mongo/carros/pagina">Ir a carros MongoDB</a>
+</div>
+
+</main>
+<script src="/js/mongoMotores.js"></script>
+</body>
+</html>

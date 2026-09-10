@@ -1,0 +1,1322 @@
+[
+    {
+        "codigoCarro":  "CAR001",
+        "nombreCarro":  "Carro Carrera 1",
+        "escuderia":  "Escuderia 1",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 1",
+        "categoria":  "Formula",
+        "anio":  2011,
+        "paisOrigen":  "Italia",
+        "pesoKg":  705,
+        "velocidadMaximaKmh":  303,
+        "aceleracion0a100":  2.2,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT001",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR002",
+        "nombreCarro":  "Carro Carrera 2",
+        "escuderia":  "Escuderia 2",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 2",
+        "categoria":  "Resistencia",
+        "anio":  2012,
+        "paisOrigen":  "Japon",
+        "pesoKg":  710,
+        "velocidadMaximaKmh":  306,
+        "aceleracion0a100":  2.3000000000000003,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT002",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR003",
+        "nombreCarro":  "Carro Carrera 3",
+        "escuderia":  "Escuderia 3",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 3",
+        "categoria":  "Formula",
+        "anio":  2013,
+        "paisOrigen":  "Italia",
+        "pesoKg":  715,
+        "velocidadMaximaKmh":  309,
+        "aceleracion0a100":  2.4,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT003",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR004",
+        "nombreCarro":  "Carro Carrera 4",
+        "escuderia":  "Escuderia 4",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 4",
+        "categoria":  "Resistencia",
+        "anio":  2014,
+        "paisOrigen":  "Japon",
+        "pesoKg":  720,
+        "velocidadMaximaKmh":  312,
+        "aceleracion0a100":  2.5,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT004",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR005",
+        "nombreCarro":  "Carro Carrera 5",
+        "escuderia":  "Escuderia 5",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 5",
+        "categoria":  "Formula",
+        "anio":  2015,
+        "paisOrigen":  "Italia",
+        "pesoKg":  725,
+        "velocidadMaximaKmh":  315,
+        "aceleracion0a100":  2.6,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT005",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR006",
+        "nombreCarro":  "Carro Carrera 6",
+        "escuderia":  "Escuderia 6",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 6",
+        "categoria":  "Resistencia",
+        "anio":  2016,
+        "paisOrigen":  "Japon",
+        "pesoKg":  730,
+        "velocidadMaximaKmh":  318,
+        "aceleracion0a100":  2.7,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT006",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR007",
+        "nombreCarro":  "Carro Carrera 7",
+        "escuderia":  "Escuderia 7",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 7",
+        "categoria":  "Formula",
+        "anio":  2017,
+        "paisOrigen":  "Italia",
+        "pesoKg":  735,
+        "velocidadMaximaKmh":  321,
+        "aceleracion0a100":  2.8,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT007",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR008",
+        "nombreCarro":  "Carro Carrera 8",
+        "escuderia":  "Escuderia 8",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 8",
+        "categoria":  "Resistencia",
+        "anio":  2018,
+        "paisOrigen":  "Japon",
+        "pesoKg":  740,
+        "velocidadMaximaKmh":  324,
+        "aceleracion0a100":  2.9000000000000004,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT008",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR009",
+        "nombreCarro":  "Carro Carrera 9",
+        "escuderia":  "Escuderia 9",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 9",
+        "categoria":  "Formula",
+        "anio":  2019,
+        "paisOrigen":  "Italia",
+        "pesoKg":  745,
+        "velocidadMaximaKmh":  327,
+        "aceleracion0a100":  3,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT009",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR010",
+        "nombreCarro":  "Carro Carrera 10",
+        "escuderia":  "Escuderia 10",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 10",
+        "categoria":  "Resistencia",
+        "anio":  2020,
+        "paisOrigen":  "Japon",
+        "pesoKg":  750,
+        "velocidadMaximaKmh":  330,
+        "aceleracion0a100":  2.1,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT010",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR011",
+        "nombreCarro":  "Carro Carrera 11",
+        "escuderia":  "Escuderia 11",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 11",
+        "categoria":  "Formula",
+        "anio":  2021,
+        "paisOrigen":  "Italia",
+        "pesoKg":  755,
+        "velocidadMaximaKmh":  333,
+        "aceleracion0a100":  2.2,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT011",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR012",
+        "nombreCarro":  "Carro Carrera 12",
+        "escuderia":  "Escuderia 12",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 12",
+        "categoria":  "Resistencia",
+        "anio":  2022,
+        "paisOrigen":  "Japon",
+        "pesoKg":  760,
+        "velocidadMaximaKmh":  336,
+        "aceleracion0a100":  2.3000000000000003,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT012",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR013",
+        "nombreCarro":  "Carro Carrera 13",
+        "escuderia":  "Escuderia 13",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 13",
+        "categoria":  "Formula",
+        "anio":  2023,
+        "paisOrigen":  "Italia",
+        "pesoKg":  765,
+        "velocidadMaximaKmh":  339,
+        "aceleracion0a100":  2.4,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT013",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR014",
+        "nombreCarro":  "Carro Carrera 14",
+        "escuderia":  "Escuderia 14",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 14",
+        "categoria":  "Resistencia",
+        "anio":  2024,
+        "paisOrigen":  "Japon",
+        "pesoKg":  770,
+        "velocidadMaximaKmh":  342,
+        "aceleracion0a100":  2.5,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT014",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR015",
+        "nombreCarro":  "Carro Carrera 15",
+        "escuderia":  "Escuderia 15",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 15",
+        "categoria":  "Formula",
+        "anio":  2025,
+        "paisOrigen":  "Italia",
+        "pesoKg":  775,
+        "velocidadMaximaKmh":  345,
+        "aceleracion0a100":  2.6,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT015",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR016",
+        "nombreCarro":  "Carro Carrera 16",
+        "escuderia":  "Escuderia 16",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 16",
+        "categoria":  "Resistencia",
+        "anio":  2010,
+        "paisOrigen":  "Japon",
+        "pesoKg":  780,
+        "velocidadMaximaKmh":  348,
+        "aceleracion0a100":  2.7,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT016",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR017",
+        "nombreCarro":  "Carro Carrera 17",
+        "escuderia":  "Escuderia 17",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 17",
+        "categoria":  "Formula",
+        "anio":  2011,
+        "paisOrigen":  "Italia",
+        "pesoKg":  785,
+        "velocidadMaximaKmh":  351,
+        "aceleracion0a100":  2.8,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT017",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR018",
+        "nombreCarro":  "Carro Carrera 18",
+        "escuderia":  "Escuderia 18",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 18",
+        "categoria":  "Resistencia",
+        "anio":  2012,
+        "paisOrigen":  "Japon",
+        "pesoKg":  790,
+        "velocidadMaximaKmh":  354,
+        "aceleracion0a100":  2.9000000000000004,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT018",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR019",
+        "nombreCarro":  "Carro Carrera 19",
+        "escuderia":  "Escuderia 19",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 19",
+        "categoria":  "Formula",
+        "anio":  2013,
+        "paisOrigen":  "Italia",
+        "pesoKg":  795,
+        "velocidadMaximaKmh":  357,
+        "aceleracion0a100":  3,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT019",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR020",
+        "nombreCarro":  "Carro Carrera 20",
+        "escuderia":  "Escuderia 20",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 20",
+        "categoria":  "Resistencia",
+        "anio":  2014,
+        "paisOrigen":  "Japon",
+        "pesoKg":  800,
+        "velocidadMaximaKmh":  360,
+        "aceleracion0a100":  2.1,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT020",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR021",
+        "nombreCarro":  "Carro Carrera 21",
+        "escuderia":  "Escuderia 21",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 21",
+        "categoria":  "Formula",
+        "anio":  2015,
+        "paisOrigen":  "Italia",
+        "pesoKg":  805,
+        "velocidadMaximaKmh":  363,
+        "aceleracion0a100":  2.2,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT021",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR022",
+        "nombreCarro":  "Carro Carrera 22",
+        "escuderia":  "Escuderia 22",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 22",
+        "categoria":  "Resistencia",
+        "anio":  2016,
+        "paisOrigen":  "Japon",
+        "pesoKg":  810,
+        "velocidadMaximaKmh":  366,
+        "aceleracion0a100":  2.3000000000000003,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT022",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR023",
+        "nombreCarro":  "Carro Carrera 23",
+        "escuderia":  "Escuderia 23",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 23",
+        "categoria":  "Formula",
+        "anio":  2017,
+        "paisOrigen":  "Italia",
+        "pesoKg":  815,
+        "velocidadMaximaKmh":  369,
+        "aceleracion0a100":  2.4,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT023",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR024",
+        "nombreCarro":  "Carro Carrera 24",
+        "escuderia":  "Escuderia 24",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 24",
+        "categoria":  "Resistencia",
+        "anio":  2018,
+        "paisOrigen":  "Japon",
+        "pesoKg":  820,
+        "velocidadMaximaKmh":  372,
+        "aceleracion0a100":  2.5,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT024",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR025",
+        "nombreCarro":  "Carro Carrera 25",
+        "escuderia":  "Escuderia 25",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 25",
+        "categoria":  "Formula",
+        "anio":  2019,
+        "paisOrigen":  "Italia",
+        "pesoKg":  825,
+        "velocidadMaximaKmh":  375,
+        "aceleracion0a100":  2.6,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT025",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR026",
+        "nombreCarro":  "Carro Carrera 26",
+        "escuderia":  "Escuderia 26",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 26",
+        "categoria":  "Resistencia",
+        "anio":  2020,
+        "paisOrigen":  "Japon",
+        "pesoKg":  830,
+        "velocidadMaximaKmh":  378,
+        "aceleracion0a100":  2.7,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT026",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR027",
+        "nombreCarro":  "Carro Carrera 27",
+        "escuderia":  "Escuderia 27",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 27",
+        "categoria":  "Formula",
+        "anio":  2021,
+        "paisOrigen":  "Italia",
+        "pesoKg":  835,
+        "velocidadMaximaKmh":  381,
+        "aceleracion0a100":  2.8,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT027",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR028",
+        "nombreCarro":  "Carro Carrera 28",
+        "escuderia":  "Escuderia 28",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 28",
+        "categoria":  "Resistencia",
+        "anio":  2022,
+        "paisOrigen":  "Japon",
+        "pesoKg":  840,
+        "velocidadMaximaKmh":  384,
+        "aceleracion0a100":  2.9000000000000004,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT028",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR029",
+        "nombreCarro":  "Carro Carrera 29",
+        "escuderia":  "Escuderia 29",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 29",
+        "categoria":  "Formula",
+        "anio":  2023,
+        "paisOrigen":  "Italia",
+        "pesoKg":  845,
+        "velocidadMaximaKmh":  387,
+        "aceleracion0a100":  3,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT029",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR030",
+        "nombreCarro":  "Carro Carrera 30",
+        "escuderia":  "Escuderia 30",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 30",
+        "categoria":  "Resistencia",
+        "anio":  2024,
+        "paisOrigen":  "Japon",
+        "pesoKg":  700,
+        "velocidadMaximaKmh":  300,
+        "aceleracion0a100":  2.1,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT030",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR031",
+        "nombreCarro":  "Carro Carrera 31",
+        "escuderia":  "Escuderia 31",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 31",
+        "categoria":  "Formula",
+        "anio":  2025,
+        "paisOrigen":  "Italia",
+        "pesoKg":  705,
+        "velocidadMaximaKmh":  303,
+        "aceleracion0a100":  2.2,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT031",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR032",
+        "nombreCarro":  "Carro Carrera 32",
+        "escuderia":  "Escuderia 32",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 32",
+        "categoria":  "Resistencia",
+        "anio":  2010,
+        "paisOrigen":  "Japon",
+        "pesoKg":  710,
+        "velocidadMaximaKmh":  306,
+        "aceleracion0a100":  2.3000000000000003,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT032",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR033",
+        "nombreCarro":  "Carro Carrera 33",
+        "escuderia":  "Escuderia 33",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 33",
+        "categoria":  "Formula",
+        "anio":  2011,
+        "paisOrigen":  "Italia",
+        "pesoKg":  715,
+        "velocidadMaximaKmh":  309,
+        "aceleracion0a100":  2.4,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT033",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR034",
+        "nombreCarro":  "Carro Carrera 34",
+        "escuderia":  "Escuderia 34",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 34",
+        "categoria":  "Resistencia",
+        "anio":  2012,
+        "paisOrigen":  "Japon",
+        "pesoKg":  720,
+        "velocidadMaximaKmh":  312,
+        "aceleracion0a100":  2.5,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT034",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR035",
+        "nombreCarro":  "Carro Carrera 35",
+        "escuderia":  "Escuderia 35",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 35",
+        "categoria":  "Formula",
+        "anio":  2013,
+        "paisOrigen":  "Italia",
+        "pesoKg":  725,
+        "velocidadMaximaKmh":  315,
+        "aceleracion0a100":  2.6,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT035",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR036",
+        "nombreCarro":  "Carro Carrera 36",
+        "escuderia":  "Escuderia 36",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 36",
+        "categoria":  "Resistencia",
+        "anio":  2014,
+        "paisOrigen":  "Japon",
+        "pesoKg":  730,
+        "velocidadMaximaKmh":  318,
+        "aceleracion0a100":  2.7,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT036",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR037",
+        "nombreCarro":  "Carro Carrera 37",
+        "escuderia":  "Escuderia 37",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 37",
+        "categoria":  "Formula",
+        "anio":  2015,
+        "paisOrigen":  "Italia",
+        "pesoKg":  735,
+        "velocidadMaximaKmh":  321,
+        "aceleracion0a100":  2.8,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT037",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR038",
+        "nombreCarro":  "Carro Carrera 38",
+        "escuderia":  "Escuderia 38",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 38",
+        "categoria":  "Resistencia",
+        "anio":  2016,
+        "paisOrigen":  "Japon",
+        "pesoKg":  740,
+        "velocidadMaximaKmh":  324,
+        "aceleracion0a100":  2.9000000000000004,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT038",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR039",
+        "nombreCarro":  "Carro Carrera 39",
+        "escuderia":  "Escuderia 39",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 39",
+        "categoria":  "Formula",
+        "anio":  2017,
+        "paisOrigen":  "Italia",
+        "pesoKg":  745,
+        "velocidadMaximaKmh":  327,
+        "aceleracion0a100":  3,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT039",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR040",
+        "nombreCarro":  "Carro Carrera 40",
+        "escuderia":  "Escuderia 40",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 40",
+        "categoria":  "Resistencia",
+        "anio":  2018,
+        "paisOrigen":  "Japon",
+        "pesoKg":  750,
+        "velocidadMaximaKmh":  330,
+        "aceleracion0a100":  2.1,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT040",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR041",
+        "nombreCarro":  "Carro Carrera 41",
+        "escuderia":  "Escuderia 41",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 41",
+        "categoria":  "Formula",
+        "anio":  2019,
+        "paisOrigen":  "Italia",
+        "pesoKg":  755,
+        "velocidadMaximaKmh":  333,
+        "aceleracion0a100":  2.2,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT041",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR042",
+        "nombreCarro":  "Carro Carrera 42",
+        "escuderia":  "Escuderia 42",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 42",
+        "categoria":  "Resistencia",
+        "anio":  2020,
+        "paisOrigen":  "Japon",
+        "pesoKg":  760,
+        "velocidadMaximaKmh":  336,
+        "aceleracion0a100":  2.3000000000000003,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT042",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR043",
+        "nombreCarro":  "Carro Carrera 43",
+        "escuderia":  "Escuderia 43",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 43",
+        "categoria":  "Formula",
+        "anio":  2021,
+        "paisOrigen":  "Italia",
+        "pesoKg":  765,
+        "velocidadMaximaKmh":  339,
+        "aceleracion0a100":  2.4,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT043",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR044",
+        "nombreCarro":  "Carro Carrera 44",
+        "escuderia":  "Escuderia 44",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 44",
+        "categoria":  "Resistencia",
+        "anio":  2022,
+        "paisOrigen":  "Japon",
+        "pesoKg":  770,
+        "velocidadMaximaKmh":  342,
+        "aceleracion0a100":  2.5,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT044",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR045",
+        "nombreCarro":  "Carro Carrera 45",
+        "escuderia":  "Escuderia 45",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 45",
+        "categoria":  "Formula",
+        "anio":  2023,
+        "paisOrigen":  "Italia",
+        "pesoKg":  775,
+        "velocidadMaximaKmh":  345,
+        "aceleracion0a100":  2.6,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT045",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR046",
+        "nombreCarro":  "Carro Carrera 46",
+        "escuderia":  "Escuderia 46",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 46",
+        "categoria":  "Resistencia",
+        "anio":  2024,
+        "paisOrigen":  "Japon",
+        "pesoKg":  780,
+        "velocidadMaximaKmh":  348,
+        "aceleracion0a100":  2.7,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT046",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR047",
+        "nombreCarro":  "Carro Carrera 47",
+        "escuderia":  "Escuderia 47",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 47",
+        "categoria":  "Formula",
+        "anio":  2025,
+        "paisOrigen":  "Italia",
+        "pesoKg":  785,
+        "velocidadMaximaKmh":  351,
+        "aceleracion0a100":  2.8,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT047",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR048",
+        "nombreCarro":  "Carro Carrera 48",
+        "escuderia":  "Escuderia 48",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 48",
+        "categoria":  "Resistencia",
+        "anio":  2010,
+        "paisOrigen":  "Japon",
+        "pesoKg":  790,
+        "velocidadMaximaKmh":  354,
+        "aceleracion0a100":  2.9000000000000004,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT048",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR049",
+        "nombreCarro":  "Carro Carrera 49",
+        "escuderia":  "Escuderia 49",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 49",
+        "categoria":  "Formula",
+        "anio":  2011,
+        "paisOrigen":  "Italia",
+        "pesoKg":  795,
+        "velocidadMaximaKmh":  357,
+        "aceleracion0a100":  3,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT049",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR050",
+        "nombreCarro":  "Carro Carrera 50",
+        "escuderia":  "Escuderia 50",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 50",
+        "categoria":  "Resistencia",
+        "anio":  2012,
+        "paisOrigen":  "Japon",
+        "pesoKg":  800,
+        "velocidadMaximaKmh":  360,
+        "aceleracion0a100":  2.1,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT050",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR051",
+        "nombreCarro":  "Carro Carrera 51",
+        "escuderia":  "Escuderia 51",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 51",
+        "categoria":  "Formula",
+        "anio":  2013,
+        "paisOrigen":  "Italia",
+        "pesoKg":  805,
+        "velocidadMaximaKmh":  363,
+        "aceleracion0a100":  2.2,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT051",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR052",
+        "nombreCarro":  "Carro Carrera 52",
+        "escuderia":  "Escuderia 52",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 52",
+        "categoria":  "Resistencia",
+        "anio":  2014,
+        "paisOrigen":  "Japon",
+        "pesoKg":  810,
+        "velocidadMaximaKmh":  366,
+        "aceleracion0a100":  2.3000000000000003,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT052",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR053",
+        "nombreCarro":  "Carro Carrera 53",
+        "escuderia":  "Escuderia 53",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 53",
+        "categoria":  "Formula",
+        "anio":  2015,
+        "paisOrigen":  "Italia",
+        "pesoKg":  815,
+        "velocidadMaximaKmh":  369,
+        "aceleracion0a100":  2.4,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT053",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR054",
+        "nombreCarro":  "Carro Carrera 54",
+        "escuderia":  "Escuderia 54",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 54",
+        "categoria":  "Resistencia",
+        "anio":  2016,
+        "paisOrigen":  "Japon",
+        "pesoKg":  820,
+        "velocidadMaximaKmh":  372,
+        "aceleracion0a100":  2.5,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT054",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR055",
+        "nombreCarro":  "Carro Carrera 55",
+        "escuderia":  "Escuderia 55",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 55",
+        "categoria":  "Formula",
+        "anio":  2017,
+        "paisOrigen":  "Italia",
+        "pesoKg":  825,
+        "velocidadMaximaKmh":  375,
+        "aceleracion0a100":  2.6,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT055",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR056",
+        "nombreCarro":  "Carro Carrera 56",
+        "escuderia":  "Escuderia 56",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 56",
+        "categoria":  "Resistencia",
+        "anio":  2018,
+        "paisOrigen":  "Japon",
+        "pesoKg":  830,
+        "velocidadMaximaKmh":  378,
+        "aceleracion0a100":  2.7,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT056",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR057",
+        "nombreCarro":  "Carro Carrera 57",
+        "escuderia":  "Escuderia 57",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 57",
+        "categoria":  "Formula",
+        "anio":  2019,
+        "paisOrigen":  "Italia",
+        "pesoKg":  835,
+        "velocidadMaximaKmh":  381,
+        "aceleracion0a100":  2.8,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT057",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR058",
+        "nombreCarro":  "Carro Carrera 58",
+        "escuderia":  "Escuderia 58",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 58",
+        "categoria":  "Resistencia",
+        "anio":  2020,
+        "paisOrigen":  "Japon",
+        "pesoKg":  840,
+        "velocidadMaximaKmh":  384,
+        "aceleracion0a100":  2.9000000000000004,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT058",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR059",
+        "nombreCarro":  "Carro Carrera 59",
+        "escuderia":  "Escuderia 59",
+        "fabricante":  "Ferrari",
+        "modelo":  "Modelo 59",
+        "categoria":  "Formula",
+        "anio":  2021,
+        "paisOrigen":  "Italia",
+        "pesoKg":  845,
+        "velocidadMaximaKmh":  387,
+        "aceleracion0a100":  3,
+        "tipoTraccion":  "Trasera",
+        "numeroMarchas":  7,
+        "codigoMotorAsignado":  "MOT059",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    },
+    {
+        "codigoCarro":  "CAR060",
+        "nombreCarro":  "Carro Carrera 60",
+        "escuderia":  "Escuderia 60",
+        "fabricante":  "Toyota",
+        "modelo":  "Modelo 60",
+        "categoria":  "Resistencia",
+        "anio":  2022,
+        "paisOrigen":  "Japon",
+        "pesoKg":  700,
+        "velocidadMaximaKmh":  300,
+        "aceleracion0a100":  2.1,
+        "tipoTraccion":  "Integral",
+        "numeroMarchas":  6,
+        "codigoMotorAsignado":  "MOT060",
+        "imagenCarro":  {
+                            "$binary":  {
+                                            "base64":  "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH/AP/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAT8hH//Z",
+                                            "subType":  "00"
+                                        }
+                        }
+    }
+]

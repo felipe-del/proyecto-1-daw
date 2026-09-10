@@ -1,0 +1,3 @@
+MOT001;V6 Turbo;Combustion;1600;1000
+MOT002;V8 Aspirado;Combustion;4000;650
+MOT003;Electrico E-1;Electrico;0;500

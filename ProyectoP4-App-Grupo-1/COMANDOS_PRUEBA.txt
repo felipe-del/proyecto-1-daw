@@ -1,0 +1,546 @@
+FASE 1 - AUTENTICACION Y CRUD TXT
+
+INSTALACION
+
+npm install
+
+VALIDACION DE SINTAXIS
+
+Get-ChildItem -Path . -Filter *.js -File -Recurse | ForEach-Object { node --check $_.FullName }
+
+EJECUCION
+
+Desde la raíz del workspace:
+
+Set-Location .\ProyectoP4-App-Grupo-1
+npm start
+
+Servidor:
+http://localhost:3000
+
+URLS UTILIZADAS
+
+http://localhost:3000/
+http://localhost:3000/carros/pagina
+http://localhost:3000/motores/pagina
+
+AUTENTICACION
+
+POST http://localhost:3000/login
+Body JSON correcto:
+{"usuario":"admin","password":"12345"}
+Resultado esperado: 200 y {"ok":true}
+
+Body JSON incorrecto:
+{"usuario":"admin","password":"incorrecta"}
+Resultado esperado: 401
+
+CARROS
+
+GET /carros
+GET /carros/CAR001
+POST /carros
+PUT /carros
+DELETE /carros/CAR900
+
+Formato utilizado:
+{"codigo":"CAR900","nombre":"Prueba","marca":"Test","categoria":"Carrera","velocidadMaxima":250}
+
+Pruebas realizadas:
+- Listar carros.
+- Consultar carro existente.
+- Consultar carro inexistente.
+- Guardar carro.
+- Modificar carro.
+- Eliminar carro.
+- Código duplicado.
+- Campos faltantes.
+- Velocidad máxima no numérica.
+
+MOTORES
+
+GET /motores
+GET /motores/MOT001
+POST /motores
+PUT /motores
+DELETE /motores/MOT900
+
+Formato utilizado:
+{"codigo":"MOT900","nombre":"Prueba","tipo":"Combustion","cilindrada":2000,"potencia":300}
+
+Pruebas realizadas:
+- Listar motores.
+- Consultar motor existente.
+- Consultar motor inexistente.
+- Guardar motor.
+- Modificar motor.
+- Eliminar motor.
+- Código duplicado.
+- Campos faltantes.
+- Cilindrada no numérica.
+- Potencia no numérica.
+
+RESULTADO
+
+Todas las pruebas HTTP de esta fase devolvieron el código esperado.
+Los registros temporales CAR900 y MOT900 fueron eliminados al finalizar.
+No se detectaron errores en la consola del servidor.
+
+CERTIFICACION FINAL
+
+Se intentó ejecutar npm start desde la raíz del workspace y falló porque allí no existe package.json.
+Corrección: ejecutar npm start dentro de ProyectoP4-App-Grupo-1.
+
+La certificación final repitió login, consultas, CRUD y validaciones con códigos temporales.
+Los TXT quedaron sin cambios después de la certificación.
+
+FASE 2 - POSTGRESQL
+
+Dependencia instalada:
+
+npm install
+
+Se agregó únicamente pg para esta fase. No se instaló Sequelize.
+
+Base utilizada:
+
+BDPostgreSQL
+
+Tablas creadas:
+
+- motores_carrera
+- carros_carrera
+- especificaciones_motor
+- configuraciones_carro
+
+Datos iniciales cargados:
+
+- 10 motores_carrera
+- 10 carros_carrera
+- 10 especificaciones_motor
+- 10 configuraciones_carro
+
+Ejecución:
+
+Set-Location .\ProyectoP4-App-Grupo-1
+npm start
+
+VISTA 1:
+
+http://localhost:3000/carro-motor/pagina
+
+Endpoints utilizados:
+
+GET /postgres/motores
+GET /postgres/motores/:id
+POST /postgres/motores
+PUT /postgres/motores/:id
+DELETE /postgres/motores/:id
+GET /postgres/carros
+GET /postgres/carros/:id
+POST /postgres/carros
+PUT /postgres/carros/:id
+DELETE /postgres/carros/:id
+GET /postgres/carros-eager
+
+VISTA 2:
+
+http://localhost:3000/configuracion/pagina
+
+Endpoints utilizados:
+
+GET /postgres/especificaciones
+GET /postgres/especificaciones/:id
+POST /postgres/especificaciones
+PUT /postgres/especificaciones/:id
+DELETE /postgres/especificaciones/:id
+GET /postgres/configuraciones
+GET /postgres/configuraciones/:id
+POST /postgres/configuraciones
+PUT /postgres/configuraciones/:id
+DELETE /postgres/configuraciones/:id
+GET /postgres/configuraciones-eager
+
+Pruebas reales ejecutadas:
+
+- Conexión a BDPostgreSQL.
+- Listado de las cuatro tablas.
+- Consulta individual de motores, carros y registros temporales.
+- Crear, actualizar y eliminar motores.
+- Crear, actualizar y eliminar carros.
+- Crear, actualizar y eliminar especificaciones.
+- Crear, actualizar y eliminar configuraciones.
+- Carga Eager de carros y motores mediante JOIN.
+- Carga Eager de configuraciones y especificaciones mediante JOIN.
+- FK inválida de carro, respuesta 500.
+- Registro inexistente, respuesta 404.
+- Imagen enviada como Base64 y almacenada como BYTEA.
+- Imagen BYTEA devuelta como Base64.
+
+Resultado Fase 2:
+
+- Todas las pruebas devolvieron el código esperado.
+- Round-trip de imagen Base64/BYTEA confirmado.
+- Conteo final: 10 registros por tabla.
+- Los registros temporales fueron eliminados.
+- No se crearon todavía scripts SQL de entrega.
+- No se inició MongoDB.
+
+CERTIFICACION FINAL FASE 2
+
+Auditoría directa del esquema:
+
+- motores_carrera: id PK + 8 campos de negocio.
+- carros_carrera: id PK + 8 campos de negocio + motor_id FK.
+- especificaciones_motor: id PK + 8 campos de negocio.
+- configuraciones_carro: id PK + 8 campos de negocio + especificacion_motor_id FK.
+
+No se encontraron columnas adicionales.
+
+Tipos de imagen confirmados directamente en PostgreSQL:
+
+- imagen_motor BYTEA.
+- imagen_carro BYTEA.
+- imagen_especificacion BYTEA.
+- imagen_configuracion BYTEA.
+
+Prueba JPEG real:
+
+- Firma JPEG comprobada: FF-D8-FF.
+- Cierre JPEG comprobado: FF-D9.
+- Flujo probado: JPEG real -> Base64 -> JSON -> controller -> Buffer -> BYTEA -> consulta -> Base64.
+- Comparación byte a byte: correcta para motor, carro, especificación y configuración.
+- Actualización de imagen: probada en las cuatro tablas.
+- Registro temporal eliminado.
+
+Frontend de imágenes:
+
+- Los cuatro formularios usan input type=file.
+- Los cuatro inputs usan accept=image/jpeg.
+- Los dos JavaScript usan FileReader y readAsDataURL.
+- El JSON transporta la imagen Base64.
+- Los listados y consultas reconstruyen data:image/jpeg;base64,... dentro de img.
+- No se usa multer, multipart/form-data, axios ni librerías de imágenes.
+
+Eager:
+
+- GET /postgres/carros-eager: INNER JOIN carros_carrera y motores_carrera, con datos de ambas tablas.
+- GET /postgres/configuraciones-eager: INNER JOIN configuraciones_carro y especificaciones_motor, con datos de ambas tablas.
+- Ambas consultas usan pool.query y mantienen el comentario CARGA EAGER.
+
+CRUD final:
+
+- Motores, carros, especificaciones y configuraciones: listar, consultar, crear, actualizar y eliminar probados.
+- FK válida probada.
+- FK inválida rechazada por PostgreSQL con respuesta 500, conservando el patrón de semana 4.
+- Registro inexistente probado con respuesta 404.
+- Un primer script de limpieza dejó un motor temporal retenido por una FK válida creada durante la prueba; se corrigió el orden de limpieza y se repitió correctamente.
+
+Conteos finales:
+
+- motores_carrera: 10.
+- carros_carrera: 10.
+- especificaciones_motor: 10.
+- configuraciones_carro: 10.
+- Registros CERT, TEST y TEMP restantes: 0.
+
+FASE 3 - MONGODB
+
+Dependencias instaladas:
+
+npm install
+
+Se agregaron únicamente mongodb y dotenv para esta fase.
+No se instaló Mongoose ni otra librería.
+
+Configuración utilizada:
+
+MONGO_URI=mongodb://localhost:27017
+MONGO_DATABASE=ProyectoP4
+
+Servidor MongoDB local:
+
+mongod.exe --dbpath .\mongo-data --port 27017 --bind_ip 127.0.0.1
+
+Servidor de aplicación:
+
+Set-Location .\ProyectoP4-App-Grupo-1
+npm start
+
+Colección utilizada exclusivamente:
+
+CollMongoDB
+
+Vistas:
+
+http://localhost:3000/mongo/carros/pagina
+http://localhost:3000/mongo/motores/pagina
+
+Rutas principales:
+
+GET /mongo/carros
+POST /mongo/carros
+GET /mongo/carros/:id
+PUT /mongo/carros/:id
+DELETE /mongo/carros/:id
+GET /mongo/carros/:id/motor/:codigoMotor
+
+GET /mongo/motores
+POST /mongo/motores
+GET /mongo/motores/:id
+PUT /mongo/motores/:id
+DELETE /mongo/motores/:id
+
+Pruebas reales ejecutadas:
+
+- Conexión MongoDB.
+- Listado de carros y motores.
+- Consulta por ObjectId.
+- Consulta inexistente con 404.
+- Crear, actualizar y eliminar carro temporal.
+- Crear, actualizar y eliminar motor temporal.
+- Campos faltantes.
+- Datos numéricos inválidos.
+- Imagen JPEG real en carro.
+- Imagen JPEG real en motor.
+- Comparación Base64 de imagen carro.
+- Comparación Base64 de imagen motor.
+- Carga Lazy mediante segunda petición HTTP.
+- Verificación de que la consulta inicial del carro no contiene el motor completo.
+
+Auditoría final CollMongoDB:
+
+- 60 documentos con codigoCarro.
+- 120 documentos con codigoMotor.
+- 180 documentos totales.
+- Todos los carros tienen exactamente 15 campos de negocio más _id.
+- Todos los motores tienen exactamente 25 campos de negocio más _id.
+- Todas las referencias codigoMotorAsignado apuntan a motores existentes.
+- No existen colecciones adicionales.
+- No quedaron registros TEMP, CERT ni TEST.
+
+FASE 4 - INTEGRACION GENERAL
+
+Servicios utilizados:
+
+- PostgreSQL local en localhost:5432.
+- MongoDB local en localhost:27017.
+- Aplicación Express en localhost:3000.
+
+Arranque MongoDB:
+
+mongod.exe --dbpath .\mongo-data --port 27017 --bind_ip 127.0.0.1
+
+Arranque aplicación:
+
+Set-Location .\ProyectoP4-App-Grupo-1
+npm start
+
+Pruebas reales sin autenticación:
+
+- GET /carros devolvió 401.
+- GET /postgres/carros devolvió 401.
+- GET /mongo/carros devolvió 401.
+- Las páginas internas redirigieron a / con 302.
+
+Pruebas reales autenticadas:
+
+- Login incorrecto devolvió 401.
+- Login correcto devolvió 200.
+- /menu devolvió 200.
+- Las seis vistas internas devolvieron 200.
+- CRUD TXT permaneció accesible.
+- PostgreSQL Eager permaneció accesible.
+- MongoDB permaneció accesible.
+- Carga Lazy permaneció disponible.
+- Logout devolvió 302.
+- Después de logout, /menu redirigió con 302.
+- Después de logout, endpoints TXT, PostgreSQL y MongoDB devolvieron 401.
+
+Log:
+
+- Login incorrecto registrado.
+- Login correcto registrado.
+- Operaciones autenticadas registradas con método y ruta.
+- Logout registrado.
+- Intentos sin autenticación registrados con SIN_AUTENTICAR.
+- Formato verificado: fecha - hora / acción / usuario.
+
+Resultado integración:
+
+- Las siete vistas principales conservaron sus scripts externos.
+- No se encontró JavaScript inline.
+- No se agregaron dependencias nuevas.
+- No se modificaron las arquitecturas certificadas de TXT, PostgreSQL o MongoDB.
+
+FASE 5 - SCRIPTS OFICIALES
+
+Directorios creados fuera de la aplicación:
+
+ProyectoP4-PostgreSQL-Grupo-1/
+- ScriptCrearBaseDatos.sql
+- ScriptPopularBaseDatos.sql
+
+ProyectoP4-MongoDB-Grupo-1/
+- Script-60-MONGO.JSON
+- Script-120-MONGO.JSON
+
+No se crearon ZIP, PDF ni archivos auxiliares dentro de los directorios de entrega.
+
+PostgreSQL clean-room:
+
+Herramientas reales:
+
+C:\Program Files\PostgreSQL\18\bin\psql.exe
+
+La reconstrucción se realizó así:
+
+1. Eliminar BDPostgreSQL mediante conexión administrativa.
+2. Ejecutar ScriptCrearBaseDatos.sql con psql.
+3. Ejecutar ScriptPopularBaseDatos.sql conectado a BDPostgreSQL.
+
+El script de creación utiliza:
+
+CREATE DATABASE "BDPostgreSQL";
+\connect "BDPostgreSQL"
+
+Resultado:
+
+- 4 tablas.
+- 10 motores.
+- 10 carros.
+- 10 especificaciones.
+- 10 configuraciones.
+- 9, 10, 9 y 10 columnas respectivamente.
+- 1 BYTEA por tabla.
+- JPEG BYTEA válido.
+- JOIN Eager 1 y Eager 2 con 10 resultados.
+
+MongoDB clean-room:
+
+Los JSON se entregan como arrays JSON completos, en UTF-8 sin BOM, formato compatible con lectura reproducible mediante mongosh.
+
+Importación real utilizada:
+
+- Vaciar únicamente ProyectoP4.CollMongoDB.
+- Leer Script-120-MONGO.JSON.
+- Convertir Extended JSON $binary a BSON Binary.
+- Insertar motores.
+- Leer Script-60-MONGO.JSON.
+- Convertir Extended JSON $binary a BSON Binary.
+- Insertar carros.
+
+Comando reproducible probado, sin archivo auxiliar:
+
+Set-Location C:\Users\isaac\OneDrive\Documents\PROYECTO-1-DAW
+$script=@'
+const fs = require("fs");
+const dbp = db.getSiblingDB("ProyectoP4");
+dbp.CollMongoDB.drop();
+function cargar(ruta) {
+	return EJSON.parse(fs.readFileSync(ruta, "utf8"));
+}
+dbp.CollMongoDB.insertMany(cargar("ProyectoP4-MongoDB-Grupo-1/Script-120-MONGO.JSON"));
+dbp.CollMongoDB.insertMany(cargar("ProyectoP4-MongoDB-Grupo-1/Script-60-MONGO.JSON"));
+printjson({motores: dbp.CollMongoDB.countDocuments({codigoMotor: {$exists: true}}), carros: dbp.CollMongoDB.countDocuments({codigoCarro: {$exists: true}}), total: dbp.CollMongoDB.countDocuments()});
+'@
+$script | & (Get-Command mongosh).Source --quiet --host 127.0.0.1
+
+Resultado:
+
+- 120 motores.
+- 60 carros.
+- 180 documentos.
+- Una sola colección CollMongoDB.
+- 25 campos de negocio + _id en todos los motores.
+- 15 campos de negocio + _id en todos los carros.
+- Referencias inválidas: 0.
+- imagenMotor e imagenCarro confirmadas como BSON Binary.
+
+Aplicación después de reconstrucción:
+
+- Login: 200.
+- TXT carros y motores: 200.
+- PostgreSQL vistas 1 y 2: 200.
+- Eager 1 y Eager 2: 200.
+- Mongo carros y motores: 200.
+- Lazy con ObjectId real: 200.
+- Logout: redirección 302.
+
+Correcciones realizadas:
+
+- Se corrigió la ejecución clean-room para eliminar la base con conexión administrativa antes de ejecutar el script.
+- Se agregó \connect al script de creación para cambiar a BDPostgreSQL dentro de psql.
+- Se corrigieron espacios iniciales en los literales Base64 SQL.
+- Se eliminó el generador temporal de JSON; los entregables son archivos estáticos.
+
+Corrección adicional certificada:
+
+- Una operación autenticada inválida devolvió 400.
+- El router registró Error HTTP 400 /carros con el usuario admin.
+- No se creó middleware global ni una capa nueva.
+
+Comando definitivo probado con JSON ARRAY y sin archivo auxiliar:
+
+Set-Location C:\Users\isaac\OneDrive\Documents\PROYECTO-1-DAW
+$script=@'
+const fs = require("fs");
+const database = db.getSiblingDB("ProyectoP4");
+database.CollMongoDB.drop();
+const motores = EJSON.parse(fs.readFileSync("ProyectoP4-MongoDB-Grupo-1/Script-120-MONGO.JSON", "utf8"));
+const carros = EJSON.parse(fs.readFileSync("ProyectoP4-MongoDB-Grupo-1/Script-60-MONGO.JSON", "utf8"));
+database.CollMongoDB.insertMany(motores);
+database.CollMongoDB.insertMany(carros);
+printjson({motores: database.CollMongoDB.countDocuments({codigoMotor: {$exists: true}}), carros: database.CollMongoDB.countDocuments({codigoCarro: {$exists: true}}), total: database.CollMongoDB.countDocuments()});
+'@
+$script | & (Get-Command mongosh).Source --quiet --host 127.0.0.1
+
+Validación JSON ARRAY:
+
+const fs = require("fs");
+for (const [ruta, esperado, campos] of [["ProyectoP4-MongoDB-Grupo-1/Script-60-MONGO.JSON", 60, 15], ["ProyectoP4-MongoDB-Grupo-1/Script-120-MONGO.JSON", 120, 25]]) {
+	const datos = JSON.parse(fs.readFileSync(ruta, "utf8"));
+	console.log(ruta, Array.isArray(datos), datos.length, datos.every(documento => Object.keys(documento).length === campos));
+}
+
+Resultado validado:
+
+- Script-60-MONGO.JSON: Array.isArray === true, length === 60, 15 campos por carro.
+- Script-120-MONGO.JSON: Array.isArray === true, length === 120, 25 campos por motor.
+- Importación: 120 motores, 60 carros, 180 documentos.
+- Colecciones: únicamente CollMongoDB.
+- Referencias inválidas: 0.
+- imagenMotor e imagenCarro: BSON Binary.
+
+FASE 6.1 - SEGUNDA CARGA LAZY MONGODB
+
+Pruebas reales ejecutadas después de implementar la carga Lazy motor -> carros:
+
+- Login incorrecto: 401.
+- Login correcto: 200.
+- GET /mongo/motores: 200.
+- GET /mongo/carros: 200.
+- GET /mongo/motores/:id: 200; el motor no incluye carros asociados.
+- GET /mongo/motores/MOT001/carros: 200; devuelve 1 carro.
+- Todos los carros devueltos para MOT001 tienen codigoMotorAsignado = MOT001.
+- GET /mongo/motores/MOT061/carros: 200; devuelve [].
+- GET /mongo/carros/:id/motor/MOT001: 200; la carga Lazy original sigue funcionando.
+- Logout: 200.
+
+Acciones semánticas comprobadas en data/acciones.txt:
+
+- Carga Lazy carros asociados al motor.
+- Carga Lazy motor.
+
+Auditoría posterior de MongoDB:
+
+- 120 motores.
+- 60 carros.
+- 180 documentos totales.
+- Una única colección: CollMongoDB.
+- Referencias inválidas: 0.
+- Todos los motores tienen 25 campos de negocio más _id.
+- Todos los carros tienen 15 campos de negocio más _id.
+- imagenMotor e imagenCarro son BSON Binary.
+- Script-60-MONGO.JSON: array, 60 documentos, 15 campos, CAR001-CAR060.
+- Script-120-MONGO.JSON: array, 120 documentos, 25 campos, MOT001-MOT120.

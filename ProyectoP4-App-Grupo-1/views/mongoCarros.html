@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros MongoDB</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+<aside class="menu-lateral">
+    <h2>Proyecto 1</h2>
+    <a href="/menu">Inicio</a><a href="/carros/pagina">Carros TXT</a><a href="/motores/pagina">Motores TXT</a>
+    <a href="/carro-motor/pagina">Carros y Motores PostgreSQL</a><a href="/configuracion/pagina">Configuraciones y Especificaciones PostgreSQL</a>
+    <a href="/mongo/carros/pagina">Carros MongoDB</a><a href="/mongo/motores/pagina">Motores MongoDB</a><a href="/logout">Cerrar sesión</a>
+</aside>
+<main class="contenido-interno">
+<div class="contenedor">
+    <h1>Carros de carreras MongoDB</h1>
+
+    <label for="carroMongoId">ObjectId</label><input id="carroMongoId" type="text">
+    <label for="codigoCarro">Código carro</label><input id="codigoCarro" type="text">
+    <label for="nombreCarro">Nombre carro</label><input id="nombreCarro" type="text">
+    <label for="escuderia">Escudería</label><input id="escuderia" type="text">
+    <label for="fabricante">Fabricante</label><input id="fabricante" type="text">
+    <label for="modelo">Modelo</label><input id="modelo" type="text">
+    <label for="categoria">Categoría</label><input id="categoria" type="text">
+    <label for="anio">Año</label><input id="anio" type="number">
+    <label for="paisOrigen">País origen</label><input id="paisOrigen" type="text">
+    <label for="pesoKg">Peso kg</label><input id="pesoKg" type="number">
+    <label for="velocidadMaximaKmh">Velocidad máxima kmh</label><input id="velocidadMaximaKmh" type="number">
+    <label for="aceleracion0a100">Aceleración 0 a 100</label><input id="aceleracion0a100" type="number" step="0.01">
+    <label for="tipoTraccion">Tipo tracción</label><input id="tipoTraccion" type="text">
+    <label for="numeroMarchas">Número marchas</label><input id="numeroMarchas" type="number">
+    <label for="codigoMotorAsignado">Código motor asignado</label><input id="codigoMotorAsignado" type="text">
+    <label for="imagenCarro">Imagen</label><input id="imagenCarro" type="file" accept="image/jpeg">
+    <img id="imagenCarroVista" width="120" alt="Imagen del carro">
+
+    <button id="btnCarroMongoGuardar">Guardar</button>
+    <button id="btnCarroMongoModificar">Modificar</button>
+    <button id="btnCarroMongoEliminar">Eliminar</button>
+    <button id="btnCarroMongoConsultar">Consultar</button>
+    <button id="btnCarroMongoLimpiar">Limpiar</button>
+    <button id="btnCarroMongoListar">Mostrar todos</button>
+
+    <div id="mensajeCarroMongo"></div>
+
+    <h2>Carros registrados</h2>
+    <table><thead><tr><th>ObjectId</th><th>Código</th><th>Nombre</th><th>Fabricante</th><th>Motor asignado</th><th>Imagen</th><th>Acción</th></tr></thead><tbody id="tablaCarrosMongo"></tbody></table>
+
+    <h2>Motor cargado</h2>
+    <div id="motorLazy"></div>
+
+    <a class="enlace" href="/mongo/motores/pagina">Ir a motores MongoDB</a>
+</div>
+
+</main>
+<script src="/js/mongoCarros.js"></script>
+</body>
+</html>
